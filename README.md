@@ -13,7 +13,6 @@
 ## Development environment/开发环境
   Win10 operating system + LabVIEW 2020 (or above), does not support NXG and traditional LabVIEW below 2020.
 > Win10 操作系统+LabVIEW 2020（或以上（~~好像暂时没有以上~~）），不支持NXG和2020以下的传统LabVIEW。
-~~剩下的Readme我晚点再补~~
 
 ## Usage/用法
   (Please understand the related knowledge of BLE communication protocol) First, run the routine to search for the address information of the target BLE device, (such as 80:6F:B0:35:C4:BF and 141217186038975), and you will get a 15-bit address code, Modify address in the required part of the program, then program will automatically find and connect to the device. Please remember to read through the program and modify the functions you need.
